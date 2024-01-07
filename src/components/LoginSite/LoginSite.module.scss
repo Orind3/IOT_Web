@@ -1,0 +1,79 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login--bgImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.login--heading__title {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.login--heading__subtitle {
+
+}
+
+.login--account__container,
+.login--password__container {
+    border: 2px solid black;
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.login--account__icon, .login--password__icon {
+    margin-left: 10px;
+}
+
+.login--account__input,
+.login--password__input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: large;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.login--account__input:focus,
+.login--password__input:focus {
+    border: none;
+    outline: none;
+}
+
+.login--confirm {
+    border: 2px solid black;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login--confirm:hover {
+    transform: scale(1.1);
+}
+.login--account__input::placeholder,
+.login--password__input::placeholder {
+    color: gray;
+}

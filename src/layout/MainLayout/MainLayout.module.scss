@@ -1,0 +1,35 @@
+.mainLayout-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainLayout-navigationBar {
+    flex: 1;
+    background-color: rgb(221, 215, 208);
+    border-radius: 5px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.mainLayout-historyLogin, .mainLayout-userInfo {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    padding-left: 30px;
+}
+
+.mainLayout-historyLogin:hover, .mainLayout-userInfo:hover {
+    background-color: beige;
+    cursor: pointer;
+}
+
+.mainLayout-historyLogin--history, .mainLayout-historyLogin--userInfo {
+    padding-right: 5px;
+}
+
+
+.mainLayout-content {
+    flex: 3
+}
